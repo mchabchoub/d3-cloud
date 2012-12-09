@@ -10,6 +10,7 @@ var fs = require("fs");
 var w = 960 * 1,
     h = 600 * 1;
 
+	
 var layout = require("../d3.layout.cloud").cloud()
     .padding(0)
     .size([w, h])
